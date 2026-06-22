@@ -30,8 +30,8 @@ import React from "react";
  */
 const DATA = {
   name: "SUSHMITA",
-  role: "AI/ML | Full Stack Developer",
-  subRole: "Engineering Intelligent Systems",
+  role: "AI Engineer| Full Stack Developer",
+  subRole:  "Building Scalable Applications & Intelligent AI Systems",
   photo: "https://res.cloudinary.com/dokv7azlr/image/upload/f_auto,q_auto/WhatsApp_Image_2026-05-01_at_8.41.40_PM_diahfc", 
   contact: {
     phone: "+91-8762621040",
@@ -39,8 +39,8 @@ const DATA = {
     linkedin: "https://www.linkedin.com/in/sushmita-daivajnya/",
     github: "https://github.com/Sushmita-Daivajnya"
   },
-  summary: "I build scalable, modern applications with a strong focus on clean architecture, delightful UX, and high performance.",
-  aboutDetailed: "My toolkit spans React, Next.js, Spring Boot, and Advanced AI/ML pipelines—bringing ideas from concept to production with robust APIs and smooth interfaces.",
+  summary: "Software Engineer passionate about building scalable backend systems, modern full-stack applications, and production-ready AI solutions using Java, Python, Spring Boot, FastAPI, React, PostgreSQL, Docker, and Generative AI."
+  aboutDetailed: "I enjoy designing scalable software systems and intelligent AI applications. My experience spans backend development with Spring Boot and FastAPI, modern frontend development using React and Next.js, cloud-ready architectures with Docker and AWS, and Generative AI technologies including LangChain, LangGraph, RAG, vector search, and multimodal AI."
   achievements: [
     "Published CV Research // JETIR 2025",
     "Real-world RAG & Vision systems",
@@ -50,7 +50,7 @@ const DATA = {
     school: "Srinivas Institute Of Technology",
     location: "Mangalore, India",
     degree: "B.E in Computer Science Engineering",
-    cgpa: "8.5",
+    cgpa: "8.0",
     period: "2022 – 2026"
   },
   experience: [
@@ -61,9 +61,9 @@ const DATA = {
       period: "Feb 2026 – Present",
       letterLink: "https://www.linkedin.com/in/sushmita-daivajnya/details/experience/", 
       bullets: [
-        "Developing Android apps using Kotlin & Jetpack Compose.",
-        "Implementing decision-based eligibility logic (+20% accuracy).",
-        "Integrating REST APIs for real-time data updates."
+        "Built Retrieval-Augmented Generation (RAG) pipelines using LangChain.",
+        "Developed FastAPI services for semantic document retrieval.",
+        "Integrated LLMs with enterprise knowledge bases using vector search."
       ]
     },
     {
@@ -73,21 +73,29 @@ const DATA = {
       period: "Jan 2026 – Present",
       letterLink: "https://www.linkedin.com/in/sushmita-daivajnya/details/experience/", 
       bullets: [
-        "Built WellKart (Spring Boot, Next.js, Typescript).",
-        "Designed scalable backend APIs (+30% efficiency).",
-        "Engineered an AI-powered virtual try-on system."
+       "Developed scalable REST APIs using Spring Boot.",
+       "Built responsive React/Next.js interfaces and integrated backend services.",
+       "Designed PostgreSQL-backed applications following clean architecture principles."
       ]
     }
   ],
   projects: [
     {
-      title: "Multimodal Retrieval AI",
-      tech: ["TinyLlama", "FAISS", "Python", "RAG"],
+      title: "Agentic Multimodal AI Assistant",
+      tech: ["Python", "LangChain", "LangGraph", "RAG","FastAPI", "PostgreSQL"]
       period: "2026",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
-      link: "https://github.com/Sushmita-Daivajnya",
-      description: "Engineered a multimodal AI system integrating LLM with FAISS-based retrieval. Optimized for near real-time performance."
+      link: "https://github.com/Sushmita-D/agentic-multimodal-ai-assistant",
+      description: "Developed a production-ready AI platform with FastAPI, PostgreSQL, LangGraph, and Docker, enabling multimodal document processing, intelligent retrieval, AI workflow orchestration, and export services."
     },
+    {
+    title: "WellKart AI Fashion Commerce",
+    tech: ["Spring Boot", "FastAPI", "PostgreSQL", "Redis", "Docker", "React", "AI Try-On"],
+    period: "2026",
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800",
+    link: "https://github.com/Sushmita-D/Wellkart",
+    description: "Developed an AI-powered fashion commerce platform featuring virtual try-on, intelligent product discovery, secure shopping workflows, and scalable microservices with Redis caching and Docker deployment."
+},
     {
       title: "Adulteration Detection",
       tech: ["YOLOv8", "Deep Learning"],
@@ -119,7 +127,7 @@ const DATA = {
     {
       category: "Backend",
       icon: Database,
-      skills: ["Spring Boot", "REST APIs", "FastAPI", "Flask", "Node.js"]
+      skills: ["Spring Boot", "REST APIs", "FastAPI", "Flask","Microservices", "Node.js"]
     },
     {
       category: "Frontend",
@@ -127,14 +135,19 @@ const DATA = {
       skills: ["Next.js", "React", "TypeScript", "HTML/CSS", "Tailwind"]
     },
     {
-      category: "Intelligence",
+      category: "AI",
       icon: BrainCircuit,
-      skills: ["ML", "Deep Learning", "LLMs", "RAG", "CV"]
+      skills: ["LangChain","LangGraph","Prompt Engineering","Vector Search","ML", "Deep Learning", "LLMs", "RAG", "CV"]
     },
     {
-      category: "Tools & Infra",
-      icon: Cpu,
-      skills: ["Git", "Docker", "AWS", "MongoDB", "GCP", "Postman"]
+      category: "Databases",
+      icon: Database,
+      skills: ["PostgreSQL", "MySQL","MongoDB"]
+    },
+    {
+      category: "DevOps & Cloud",
+      icon: Cloud,
+      skills: ["Git", "Docker", "AWS","Postman","GitHub Actions"]
     }
   ],
   certifications: [
