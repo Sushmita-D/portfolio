@@ -13,6 +13,7 @@ import {
   Layout,
   Binary,
   Cpu,
+  Cloud,
   Globe,
   Layers,
   Phone,
@@ -39,12 +40,12 @@ const DATA = {
     linkedin: "https://www.linkedin.com/in/sushmita-daivajnya/",
     github: "https://github.com/Sushmita-Daivajnya"
   },
-  summary: "Software Engineer passionate about building scalable backend systems, modern full-stack applications, and production-ready AI solutions using Java, Python, Spring Boot, FastAPI, React, PostgreSQL, Docker, and Generative AI."
-  aboutDetailed: "I enjoy designing scalable software systems and intelligent AI applications. My experience spans backend development with Spring Boot and FastAPI, modern frontend development using React and Next.js, cloud-ready architectures with Docker and AWS, and Generative AI technologies including LangChain, LangGraph, RAG, vector search, and multimodal AI."
+  summary: "Software Engineer passionate about building scalable backend systems, modern full-stack applications, and production-ready AI solutions using Java, Python, Spring Boot, FastAPI, React, PostgreSQL, Docker, and Generative AI.",
+  aboutDetailed: "I enjoy designing scalable software systems and intelligent AI applications. My experience spans backend development with Spring Boot and FastAPI, modern frontend development using React and Next.js, cloud-ready architectures with Docker and AWS, and Generative AI technologies including LangChain, LangGraph, RAG, vector search, and multimodal AI.",
   achievements: [
     "Published CV Research // JETIR 2025",
     "Real-world RAG & Vision systems",
-    "Hackathon Champion // AI Category"
+    "Built Production-Ready Agentic AI Platform"
   ],
   education: {
     school: "Srinivas Institute Of Technology",
@@ -82,7 +83,7 @@ const DATA = {
   projects: [
     {
       title: "Agentic Multimodal AI Assistant",
-      tech: ["Python", "LangChain", "LangGraph", "RAG","FastAPI", "PostgreSQL"]
+      tech: ["Python", "LangChain", "LangGraph", "RAG","FastAPI", "PostgreSQL"],
       period: "2026",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
       link: "https://github.com/Sushmita-D/agentic-multimodal-ai-assistant",
